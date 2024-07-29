@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Validasi Data</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+
+    <title>Formulir Bootstrap</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="alert alert-primary text-center mt-3">FORMULIR PENDAFTARAN MAHASISWA BARU</h2>
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="validationTooltip01" class="form-label">Nama Pertama</label>
+                    <input type="text" class="form-control" id="validationTooltip01" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationTooltip02" class="form-label">Marga</label>
+                    <input type="text" class="form-control" id="validationTooltip02" required>
+                </div>
+            </div>
+            <br>
+
+            <div class="from-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+            <br>
+              
+            <div class="from-group">
+                  <label for="place-of-birth">Tempat Lahir:</label>
+                  <input type="text" id="place-of-birth" name="place-of-birth">
+                  <br><br>
+                  <label for="date-of-birth">Tanggal Lahir:</label>
+                  <input type="date" id="date-of-birth" name="date-of-birth">
+            </div>
+
+            <br>
+       
+              <div class="nim-container">
+                <label for="nim">NIM:</label>
+                <input type="text" id="nim" name="nim">
+              </div>
+
+              <br>
+
+              <div class="jurusan-container">
+                <label for="jurusan">Jurusan:</label>
+                <select id="jurusan" name="jurusan">
+                  <option value="">Pilih Jurusan</option>
+                  <option value="Teknik Informatika">Teknik Informatika</option>
+                  <option value="TRKJJ">KRJJ</option>
+                  <option value="Mesin">Mesin</option>
+                  <option value="Listrik">Listrik</option>
+                  <option value="Sipil">Sipil</option>
+                  <option value="Agro Industri">Agro Industri</option>
+                  <option value="Teknik Mesin">Teknik Mesin</option>
+                </select>
+              </div>
+
+              <br>
+
+              <div>
+                <label>Alamat:<br></label>
+                <input type="alamat" name="alamat" id="alamat">
+            </div>
+
+            <br>
+
+            <div class="Hobby">
+                <label for="Hobby">Hobby:</label>
+                <select id="Hobby" name="Hobby">
+                  <option value="">Pilih Hobby</option>
+                  <option value="Menari">Menari</option>
+                  <option value="Lari">Lari</option>
+                  <option value="Futsal">Futsal</option>
+                  <option value="Memasak">Memasak</option>
+                  <option value="Belajar">Belajar</option>
+                </select>
+              </div>
+
+              <br>
+
+              <div class="asal-sekolah-container">
+                <label for="asal-sekolah">Asal Sekolah:</label>
+                <select id="asal-sekolah" name="asal_sekolah">
+                  <option value="">Pilih Sekolah</option>
+                  <option value="SMA Negeri 1 Fakfak">SMA Negeri 1 Fakfak</option>
+                  <option value="Magefa">Magefa</option>
+                  <option value="SMK Yapis">SMK Yapis</option>
+                </select>
+              </div>
+
+              <br>
+              <div class="from-group">
+                <label>Email</label>
+                <input type="email" name="" class="form-control" placeholder="Masukan Email Anda">
+            </div>
+
+            <br>
+            <div>
+                <input type="submit" value="SUBMIT" class="tombol">
+            </div>
+
+        </form>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
